@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:object="${song}">
+    Name: <p th:field="*{name}"></p>
+    Single: <p th:field="*{single}"></p>
+    Category: <p th:field="*{category}"></p>
+</h1>
+</body>
+</html>
